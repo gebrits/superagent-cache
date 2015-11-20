@@ -284,6 +284,7 @@ module.exports = function(agent, cache){
       newResponse.statusCode = r.statusCode;
       newResponse.status = r.status;
       newResponse.ok = r.ok;
+      newResponse.redirects = r.redirects;
       return newResponse;
     }
 
